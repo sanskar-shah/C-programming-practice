@@ -1,52 +1,43 @@
-# ATM Simulator in C 🏧
+# Hi, I'm Sanskar 👋
 
-Hi! I'm 16 and I'm learning C. I made this ATM simulator to practice `switch` statements and loops. It runs in the terminal, and you can check your balance, deposit money, and withdraw money until you decide to exit.
+I'm a 16-year-old student in Class 11, and I love learning how to make computers do useful things. I started with Python, got into data science, and now I'm learning C to build stronger programming basics.
 
-## What it does
+## What I'm up to
 
-When you start the program, it asks for your starting balance. Then it shows a menu:
+- 📚 Learning **C programming** (the same language we study in school)
+- 🏧 Practicing with small terminal projects like an ATM simulator
+- 🧠 Trying to really understand how things work instead of just memorizing syntax
 
-```
-1. Check balance
-2. Deposit
-3. Withdraw
-4. Exit
-```
+## My journey so far
 
-- **Check balance** shows how much money you have.
-- **Deposit** adds money, but only if the amount is more than zero.
-- **Withdraw** takes money out, but only if the amount is more than zero and not more than your balance.
-- **Exit** says goodbye and closes the program.
-- Anything else shows an "invalid option" message and the menu comes back.
+**Python came first.** It was my first language, and I used it to work on a few data science projects. I learned to:
 
-The menu keeps showing up after every action until you choose Exit.
+- Clean and explore data with **pandas**
+- Do fast number work with **NumPy**
+- Turn numbers into charts and graphs with **Matplotlib**
 
-## What I learned
+**Now I'm learning C.** After Python, C feels very different. I have to think about types, memory, and every little detail, which is hard but also really fun. So far I've worked on:
 
-This project came from a few switch-case assignments I did, and I learned a lot from them.
+- `switch` statements and why `break` matters
+- Loops and menu-driven programs
+- Input validation and fixing logic bugs
 
-**Switch statements**
-- A `switch` only works with things like `int` and `char`, not strings or decimals.
-- Case labels have to be constants, not variables.
-- If you forget `break`, the code keeps running into the next cases. I made this mistake myself and now I never forget it.
-- You can stack cases on purpose so they share the same code, like all the months with 31 days.
-- `default` is really useful for handling wrong input.
-- If you make a variable inside a case, you need to put the case inside `{ }`.
+## Tools I use
 
-**Loops**
-- A `do-while` loop is perfect for menus because it always runs at least once.
-- `break` inside a switch only leaves the switch, not the loop.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-**Input and output**
-- `scanf` needs `&` before the variable.
-- Writing `" %c"` with a space before it skips leftover newlines.
-- `%lf` reads a `double` and `%.2f` prints it with two decimals.
+## What I want to learn next
 
-**Logic and debugging**
-- Two separate `if` statements are not the same as `if / else if / else`. My withdraw code showed an error but still took the money out, and chaining the conditions fixed it.
-- Always check for division by zero.
-- Code can compile fine and still have bugs, so testing different inputs really matters.
+- Get comfortable with loops, functions, arrays, and pointers in C
+- Build bigger projects as I improve
+- Understand how C and Python are different and where each one is useful
+- Keep growing my data science skills
 
-## Feedback
+## Let's learn together
 
-I'm still a beginner, so if you have any tips to make my code better, I'd love to hear them. Thanks for checking out my project!
+I'm still a beginner, and I make plenty of mistakes (my code has had its share of bugs). If you have tips, resources, or feedback on my projects, I'd love to hear them. Thanks for stopping by! 😄
